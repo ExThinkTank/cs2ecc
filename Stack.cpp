@@ -1,6 +1,3 @@
-/*
-Author: Satish Singhal
-*/
 #include "Stack.h"
 
 Stack::Stack()

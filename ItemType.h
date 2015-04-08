@@ -1,6 +1,3 @@
-/*
-Author: Satish Singhal
-*/
 #pragma once
 #ifndef ITEMTYPE_H
 #define ITEMTYPE_H

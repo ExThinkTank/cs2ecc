@@ -1,6 +1,3 @@
-/*
-Author: Satish Singhal
-*/
 #include "TokenizerParser.h"
 
 namespace MySpace

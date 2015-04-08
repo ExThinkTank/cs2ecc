@@ -1,6 +1,3 @@
-/*
-Author: Satish Singhal
-*/
 #pragma once
 #ifndef STACK_INTERFACE_H
 #define STACK_INTERFACE_H

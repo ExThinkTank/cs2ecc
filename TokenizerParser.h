@@ -1,6 +1,3 @@
-/*
-Author: Satish Singhal
-*/
 #pragma once
 #ifndef TOKENIZER_PARSER_H
 #define TOKENIZER_PARSER_H
@@ -16,55 +13,6 @@ Author: Satish Singhal
 #include <cstdlib>
 
 using namespace std;
-
-/**
-*@author Satish Singhal Ph. D.
-*@version 1.0<BR><BR>
-*<B>Class Description</B><BR>
-*The class TokenizerParser has some basic static functions
-*that will help you to reduce the amount of code  you will need to
-*write in experiment 4. The documentation gives you the
-*details of various member functions. The functions either
-*tokenize a STL string and return to you the number of space
-*delimited tokens in your postfix espression or parse the
-*neumeric strings for you. An example of using the class
-*TokenizerParser is show below.<BR>
-*<B>The main function</B><BR><BR>
-*#include "TokenizerParser.h"<BR>
-*const int MAX = 200;<BR>
-
-*void main()<BR>
-*{<BR>
-string num = string("-.33");<BR>
-double val = TokenizerParser::parseDouble(num);<BR>
-cout<<val<<endl;<BR>
-int value = TokenizerParser::parseInt(string("-35"));<BR>
-cout<<value<<endl;<BR>
-long num1 = TokenizerParser::parseLong(string("-200000000"));<BR>
-cout<<num1<<endl;<BR>
-string Str_Arr[MAX];<BR>
-string exp = " 4 2 + 3 5 1 - * + ";<BR>
-int count = 0;<BR>
-TokenizerParser::getStringArray(Str_Arr,exp,MAX,count);<BR>
-for(int index=0; index<count; index++)<BR>
-cout<<Str_Arr[index]<<endl;<BR>
-cout<<endl;<BR>
-}<BR><BR>
-
-<B> Output From Above main</B><BR>
--0.33<BR>
--35<BR>
--200000000<BR>
-4<BR>
-2<BR>
-+<BR>
-3<BR>
-5<BR>
-1<BR>
--<BR>
-*<BR>
-+<BR>
-*/
 
 namespace MySpace
 {
